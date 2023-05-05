@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+import numpy as np
 
 # tentatively, I just stuck a convolutional neural net in here that I wrote previously'
 # Note that these dimensions are incorrect
