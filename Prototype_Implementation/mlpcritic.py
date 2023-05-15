@@ -5,9 +5,6 @@ import torch.nn.functional as F
 import numpy as np
 
 class MLPCritic(nn.Module):
-    
-    def __init__(self):
-        super(MLPCritic, self).__init__()
 
     def __init__(self, in_dim, out_dim):
         super(MLPCritic, self).__init__()
